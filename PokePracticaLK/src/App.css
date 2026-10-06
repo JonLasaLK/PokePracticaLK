@@ -1,0 +1,58 @@
+:root{
+  --bg-color :rgb(102, 178, 223);
+  --play-button: rgb(243, 81, 6) ;
+  --play-button--hv: rgb(182, 60, 4);
+}
+
+* {
+ margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+
+  align-items: center;
+  justify-content: center;
+
+  
+  background-color: var(--bg-color);
+}
+
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover{
+  transform: translateY(-0.15em);
+  box-shadow: 0.3em 0.4em 1em rgb(82, 80, 80);
+
+  font-weight: 200;
+  
+}
+
+button {
+  all:unset;
+  margin: 1em;
+  padding: 1em 1.5em;
+  border-radius: 0.3em;
+  
+  border-right:solid 0.1em black;
+  border-bottom:solid 0.1em black;
+  border-top: solid 0em black;
+  border-left:solid 0em black;
+  font-size: x-large;
+  background-color:var(--play-button);
+}
+
+button:active{
+  border-right:solid 0em black;
+  border-bottom:solid 0em black;
+  border-top: solid 0.1em black;
+  border-left:solid 0.1em black;
+}
