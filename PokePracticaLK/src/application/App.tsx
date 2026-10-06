@@ -1,7 +1,6 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import { LandingPage } from './LandingPage'
 import { RegionSelectorPage } from './RegionSelectorPage'
-import { useState } from 'react'
 import './App.css'
 
 function App() {

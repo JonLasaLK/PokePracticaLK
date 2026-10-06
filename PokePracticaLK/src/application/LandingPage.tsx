@@ -6,4 +6,4 @@ export function LandingPage(){
     return <section>
             <button onClick={()=>{navigate("/RegionSelectorPage")}}>Play</button>
         </section>
-}
+}           
